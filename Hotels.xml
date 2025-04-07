@@ -31,7 +31,7 @@
     <Name>Hyatt Regency Phoenix</Name>
     <Phone>602-252-1234</Phone>
     <Phone>800-233-1234</Phone>
-    <Address>
+        <Address NearstAirport="Sky Harbor">
       <Number>122</Number>
       <Street>N 2nd St</Street>
       <City>Phoenix</City>
@@ -55,7 +55,7 @@
   <Hotel Rating="4.1">
     <Name>Graduate Tempe</Name>
     <Phone>480-967-9431</Phone>
-    <Address>
+        <Address NearstAirport="Sky Harbor">
       <Number>225</Number>
       <Street>E Apache Blvd</Street>
       <City>Tempe</City>
@@ -92,7 +92,7 @@
   <Hotel Rating="4.4">
     <Name>The Phoenician</Name>
     <Phone>480-941-8200</Phone>
-    <Address>
+        <Address NearstAirport="Sky Harbor">
       <Number>6000</Number>
       <Street>E Camelback Rd</Street>
       <City>Scottsdale</City>
@@ -117,7 +117,7 @@
   <Hotel Rating="3.9">
     <Name>Hotel Valley Ho</Name>
     <Phone>480-376-2600</Phone>
-    <Address>
+        <Address NearstAirport="Sky Harbor">
       <Number>6850</Number>
       <Street>E Main St</Street>
       <City>Scottsdale</City>
