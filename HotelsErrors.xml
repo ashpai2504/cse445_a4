@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-
+<!-- Root element is intentionally incorrect -->
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  
+  <!-- 1. A correct hotel (for comparison) -->
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -14,6 +16,7 @@
     </Address>
   </Hotel>
   
+  <!-- 2. Missing required attribute "Rating" -->
   <Hotel>
     <Name>Marriott Phoenix Resort Tempe</Name>
     <Phone>480-894-1400</Phone>
@@ -26,8 +29,10 @@
     </Address>
   </Hotel>
   
+  <!-- 3. Missing a <Phone> element -->
   <Hotel Rating="4.0">
     <Name>Hyatt Regency Phoenix</Name>
+    <!-- No Phone element provided -->
     <Address>
       <Number>122</Number>
       <Street>N 2nd St</Street>
@@ -37,6 +42,7 @@
     </Address>
   </Hotel>
   
+  <!-- 4. <Address> element missing a closing tag -->
   <Hotel Rating="3.8">
     <Name>AC Hotel Phoenix Tempe</Name>
     <Phone>480-642-6140</Phone>
@@ -46,9 +52,10 @@
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-    </Address>
+    <!-- MISSING: </Address> -->
   </Hotel>
   
+  <!-- 5. Two <Name> elements provided for one hotel -->
   <Hotel Rating="4.1">
     <Name>Graduate Tempe</Name>
     <Name>Second Name Not Allowed</Name>
@@ -61,4 +68,5 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
+  
 </Hotel>
