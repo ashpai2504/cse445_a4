@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -35,7 +36,7 @@
       <Zip>85004</Zip>
     </Address>
   </Hotel>
-  <!-- Add 7 more hotels to meet the requirement of 10+ hotels -->
+  <!-- Additional hotels to meet the 10+ requirement -->
   <Hotel Rating="3.8">
     <Name>AC Hotel Phoenix Tempe</Name>
     <Phone>480-642-6140</Phone>
