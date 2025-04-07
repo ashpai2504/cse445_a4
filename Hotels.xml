@@ -6,7 +6,7 @@
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
@@ -18,7 +18,7 @@
   <Hotel Rating="4.5">
     <Name>Marriott Phoenix Resort Tempe</Name>
     <Phone>480-894-1400</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>300</Number>
       <Street>S Mill Ave</Street>
       <City>Tempe</City>
@@ -43,7 +43,7 @@
   <Hotel Rating="3.8">
     <Name>AC Hotel Phoenix Tempe</Name>
     <Phone>480-642-6140</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>100</Number>
       <Street>E Rio Salado Pkwy</Street>
       <City>Tempe</City>
@@ -67,7 +67,7 @@
   <Hotel Rating="3.7">
     <Name>Moxy Phoenix Tempe</Name>
     <Phone>480-968-3451</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>1333</Number>
       <Street>S Rural Rd</Street>
       <City>Tempe</City>
@@ -80,7 +80,7 @@
     <Name>Four Seasons Resort Scottsdale</Name>
     <Phone>480-515-5700</Phone>
     <Phone>800-819-5053</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>10600</Number>
       <Street>E Crescent Moon Dr</Street>
       <City>Scottsdale</City>
@@ -105,7 +105,7 @@
     <Name>Arizona Biltmore</Name>
     <Phone>602-955-6600</Phone>
     <Phone>800-950-0086</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>2400</Number>
       <Street>E Missouri Ave</Street>
       <City>Phoenix</City>
